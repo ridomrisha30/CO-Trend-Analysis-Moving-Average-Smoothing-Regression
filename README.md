@@ -5,8 +5,8 @@ This project analyzes atmospheric CO₂ levels from 1959 to 1997 using time seri
 ## Features
 * Data Preprocessing: Converts time series to numeric format for analysis.
 * Time Series Smoothing:
-* Moving Average (12-month): Computes a rolling mean to smooth fluctuations.
-* Exponential Smoothing (α = 0.3): Applies weighted smoothing for trend detection.
+  * Moving Average (12-month): Computes a rolling mean to smooth fluctuations.
+  * Exponential Smoothing (α = 0.3): Applies weighted smoothing for trend detection.
 * Regression Analysis:
   * Linear Regression: Models the long-term CO₂ trend.
   * Quadratic Regression: Captures possible acceleration in CO₂ growth.
