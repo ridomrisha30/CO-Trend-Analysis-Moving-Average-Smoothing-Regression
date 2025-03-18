@@ -13,12 +13,8 @@ This project analyzes atmospheric CO₂ levels from 1959 to 1997 using time seri
 * Model Evaluation:
   * Calculates Residual Sum of Squares (RSS) for both models.
   * Uses an F-test to compare linear vs. quadratic trends.
-## Results
-* The moving average smooths seasonal variations, revealing underlying trends.
-* Exponential smoothing highlights gradual trend changes over time.
-* Quadratic regression may provide a better fit than a linear model, tested using an F-statistic.
-## Future Enhancements
-* Implement seasonal decomposition (stl()) to analyze periodic patterns.
+## Result: Upward Trend in CO₂ Levels
+The analysis confirms a consistent upward trend in atmospheric CO₂ levels from 1959 to 1997. Both the moving average and exponential smoothing highlight a steady increase, while quadratic regression suggests that the growth rate is accelerating over time.
 ## How to Run the Analysis
 * Run the script in an R environment (RStudio recommended).
 * The co2 dataset is preloaded in R, so no external data is required.
